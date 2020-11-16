@@ -9,10 +9,12 @@ The solution is to create a custom Kentico Xperience `AlternativeFormInfoProvide
 
 ## Compatibility
 * .NET 4.6.1 or higher
-* Kentico Xperience 11.0.0 or higher
+* Kentico Xperience versions
+  -  11.0.0 or higher (use KenticoCommunity.UpsertAlternativeForms 11.0.0)
+  
 
 ## Installation
-To install, add the NuGet package, "KenticoCommunity.UpsertAlternativeForms", to your CMS project.
+To install, add the NuGet package, "KenticoCommunity.UpsertAlternativeForms", to your CMS project. Also add the version of "Kentico.Libraries" that corresponds to the hotfix level of your Xperience installation, to ensure the dependencies of this package do not downgrade Xperience assemblies.
 
 ## Usage
 After adding the NuGet package to your CMS project, you can create alternative forms for your page types named "upsert" whenever you want one alternative form for all edit modes.
