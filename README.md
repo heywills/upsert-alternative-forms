@@ -12,6 +12,7 @@ The solution is to create a custom Kentico Xperience `AlternativeFormInfoProvide
 * Kentico Xperience versions
   -  11.0.0 or higher (use KenticoCommunity.UpsertAlternativeForms 11.0.0)
   -  12.0.0 or higher (use KenticoCommunity.UpsertAlternativeForms 12.0.0)
+  -  13.0.0 or higher (use KenticoCommunity.UpsertAlternativeForms 13.0.0)
   
 
 ## Installation
