@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("KenticoCommunity.UpsertAlternativeForms")]
-[assembly: AssemblyDescription("Kentico Xperience v11 custom provider to enable using upsert alternative forms, so you can customize a page type with one alternative form named 'upsert'.")]
+[assembly: AssemblyDescription("Kentico Xperience v12 custom provider to enable using upsert alternative forms, so you can customize a page type with one alternative form named 'upsert'.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("BlueModus")]
 [assembly: AssemblyProduct("KenticoCommunity.UpsertAlternativeForms")]
@@ -33,7 +33,7 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("11.0.0.0")]
-[assembly: AssemblyFileVersion("11.0.0.0")]
+[assembly: AssemblyVersion("12.0.0.0")]
+[assembly: AssemblyFileVersion("12.0.0.0")]
 [assembly: InternalsVisibleTo("KenticoCommunity.UpsertAlternativeForms.Tests")]
 [assembly: AssemblyDiscoverable]
