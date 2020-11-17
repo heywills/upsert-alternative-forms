@@ -32,9 +32,11 @@ namespace KenticoCommunity.UpsertAlternativeForms.Helpers
                 throw new ArgumentException("The alternativeFormFullName parameter must be a 3-part name delimited by a '.'.");
             }
 
-            var alternativeFormNameParts = new AlternativeFormNameParts();
-            alternativeFormNameParts.ClassName = alternativeFormFullName.Substring(0, delimiterPosition);
-            alternativeFormNameParts.FormName = alternativeFormFullName.Substring(delimiterPosition + 1);
+            var alternativeFormNameParts = new AlternativeFormNameParts
+            {
+                ClassName = alternativeFormFullName.Substring(0, delimiterPosition),
+                FormName = alternativeFormFullName.Substring(delimiterPosition + 1)
+            };
             return alternativeFormNameParts;
         }
 
